@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sravya {
+            display: grid;
+            height: 40vh;
+            gap: 5px;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(4, 100px);
+        }
+
+        .a {
+            grid-row: 1/4;
+            background-color: rgb(43, 237, 43);
+        }
+
+        .b {
+            grid-column: 2/4;
+            background-color: rgb(43, 237, 43);
+        }
+
+        .c {
+            grid-column: 4;
+            background-color: blue;
+        }
+
+        .d {
+            grid-row: 2/3;
+            background-color: blueviolet;
+        }
+
+        .e {
+            grid-row: 2/3;
+            background-color: blue;
+        }
+
+        .f {
+            grid-row: 3/4;
+            background-color: blue;
+        }
+
+        .g {
+            grid-row: 3/4;
+           background-color: blueviolet;
+        }
+
+        .h {
+            grid-row: 2/4;
+            background-color: rgb(43, 237, 43);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sravya">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div>
+        <div class="g"></div>
+        <div class="h"></div>
+    </div>
+</body>
+</html>
